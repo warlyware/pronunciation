@@ -1,0 +1,19 @@
+body {
+  color: #594E4E;
+  background-color: #DD7A79;
+  font-family: 'Exo 2';
+}
+
+input {
+  text-align: center;
+}
+
+.header {
+  padding-top: -8px;
+}
+
+.main-wrapper {
+  margin-top: 10vh;
+  background-color: #5ABDFE;
+  border-radius: 5px;
+}

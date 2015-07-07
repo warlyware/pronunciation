@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<title>words</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Exo+2:700,400,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body onload="initElement();">
+    <div class="container">
+      <div class="row center-align">
+        <div class="col s8 offset-s2">
+          <div class="main-wrapper card-panel z-depth-3">
+            <h2 class="header">type a word</h2>
+            <h3 class="tagline">hear the pronunciation</h3>
+            <div class="input-field">  
+              <input type="text" id="inputText"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <audio autoplay id="audioPlayer">
+          <source src=" ">
+      </audio>
+      
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
